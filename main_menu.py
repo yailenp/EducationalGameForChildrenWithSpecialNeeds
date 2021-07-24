@@ -201,13 +201,11 @@ def main_m():
     mytheme.title_font_size = 70
     mytheme.background_color = (227,227,227)
 
-    #buttons of the menu
-    #mytheme.widget_font_color = (0,0,0)
+    #config. buttons of the menu
     mytheme.widget_border_color = (128,128,128)
     mytheme.cursor_color = (0,0,0)
     mytheme.selection_color = (0,0,0)
     mytheme.widget_font_size= 40
-
 
     #menu definition
     menu = pygame_menu.Menu(
